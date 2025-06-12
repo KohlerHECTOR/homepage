@@ -1,0 +1,209 @@
+% ========================================================
+% This document is a customizable CV/Resume template built using LaTeX.
+% The template is designed for easy customization and clear structure.
+%
+% Author: Matthew DeVerna (www.matthewdeverna.com)
+% Date: 2024
+% Design: Cased on Hause Lin's CV (hauselin.com)
+% 
+% Project Overview:
+% -----------------
+% This LaTeX document is designed to help you create a professional CV or 
+% resume with ease. It uses as little fancy LaTex functionality or custom functions as possible to maximize its longterm durability and flexibility.
+% The document is structured into multiple sections, each loaded from 
+% separate subfiles for modularity and ease of maintenance. 
+%
+% Key Features:
+% -------------
+% - Customizable sections: Education, Research Experience, Awards, Publications, etc.
+% - Bookmarks in the PDF for easy navigation
+% - Styled bibliography with BibLaTeX
+% - Hyperlinked email and website
+% - FontAwesome icons for additional styling
+%
+% Getting Started:
+% ----------------
+% 1. Customize your personal information by modifying the \mytitle command.
+% 2. Add your content to the respective subfiles (e.g., education.tex, exp_research.tex).
+% 3. Update the bibliography file (ref.bib) with your publications and categorize them with keywords.
+%
+% Important Notes:
+% ----------------
+% - This main file includes the overall structure and settings. 
+% - Each section has its own detailed instructions for further customization.
+%
+% ========================================================
+
+\documentclass[11pt]{article} % Choose the document class and font size
+\usepackage[margin=1in]{geometry} % Page layout settings
+
+% Set the citation style
+\usepackage[
+    backend=biber,      % Specifies the backend to be used by BibLaTeX for processing the bibliography. 'biber' is the default backend.
+    maxnames=20,        % Limits the maximum number of author names to display before abbreviating with "et al."
+    style=nature,       % Sets the citation style to 'nature,' which is commonly used in scientific papers.
+    sorting=ydnt,       % Specifies the sorting order of entries in the bibliography:
+                        % y - year (descending)
+                        % d - descending order
+                        % n - name
+                        % t - title
+    defernumbers=true,  % Delays the assignment of citation numbers until the end of the document, allowing for the correct order of citations within each bibliography section.
+]{biblatex}
+\addbibresource{ref.bib} % Adds the bibliography resource file 'ref.bib' containing all the references.
+
+% Allows columns that stretch across pages
+\usepackage{longtable}
+
+% Table functionality and beautification (not strictly needed)
+\usepackage{bookmark}
+
+% Use icons, if you want.
+% All available icons: http://mirrors.ibiblio.org/CTAN/fonts/fontawesome5/doc/fontawesome5.pdf
+\usepackage{fontawesome}
+
+% Allows font justification control (needed for clean pub-list formatting)
+\usepackage{ragged2e}
+
+% For underlining with line breaks
+\usepackage{soul} 
+
+% All fonts: https://tug.org/FontCatalogue/
+\usepackage{kpfonts} % More professional font
+% \usepackage[default]{sourcecodepro} % Code-like font
+\usepackage[T1]{fontenc}
+
+% Control hyperlinks and colors
+% CUSTOM COLORS INCLUDED DIRECTLY AFTER \begin{document}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,        % Enable colored links
+    breaklinks=true,        % Allow links to break across lines
+    linkcolor=cornflowerblue,    % Color of internal links
+    urlcolor=cornflowerblue,     % Color of URL links
+    anchorcolor=cornflowerblue,  % Color of anchors
+    citecolor=cornflowerblue,    % Color of citations
+    pdftitle={CV},    % Title of the PDF
+    pdfauthor={Hector Kohler}, % Author of the PDF
+    bookmarksopen=true,      % Open bookmarks panel at start
+}
+
+%%% CONVENIENCE FUNCTIONS GO HERE %%%
+%%% ----------------------------- %%%
+\newcommand{\mytitle}[4]{
+  \begin{center}
+    \Large\textbf{#1}\normalsize \\ % Name in large bold font
+    \href{mailto:#2}{#2} \\ % Email with mailto: link
+    \href{https://#3}{#3} \\ % Website with link
+    #4 % Address
+  \end{center}
+}
+%%% ----------------------------- %%%
+
+
+\begin{document}
+\include{colors.tex} % Load custom colors from colors file
+\mytitle{Hector Kohler}{hector.kohler@inria.fr}{https://kohlerhector.github.io/homepage/}{\href{https://github.com/KohlerHECTOR/}{github}} % Insert your custom title
+
+
+% Ensure right side margin is not surpassed by bibliography and the right margin is aligned throughout
+\RaggedRight
+
+
+% These \pdfbookmark lines create bookmarks in the exported PDF document that display in the left pane.
+% Value in [] sets the indentation level of the bookmark
+\pdfbookmark[1]{Education}{}
+\section*{Education}
+\input{education.tex}
+
+\pdfbookmark[1]{Research Experience}{exp_research}
+\section*{Research Experience}
+\label{exp_research}
+\input{exp_research.tex}
+
+\pdfbookmark[1]{Awards \& Honors}{awards}
+\section*{Awards \& Honors}
+\label{awards}
+\input{awards.tex}
+
+
+\pdfbookmark[1]{Publications}{pubs}
+\section*{Publications}
+\label{pubs}
+
+% Add equal contribution dagger
+\vspace{-.75em}
+\small
+\faGoogle~\href{https://scholar.google.com/citations?user=aSO7bZ0AAAAJ&hl=en}{Google Scholar}\\
+\normalsize
+
+
+\pdfbookmark[2]{Journal Articles}{journal-article}
+\subsection*{Journal Articles}
+\label{journal-article}
+\newrefcontext[labelprefix=J] % Will prefix bibliography numbers with this letter
+\nocite{*}% Ensures publications which are not cited in the document are included in the above sections
+\printbibliography[
+    type=article, % Only include @article ref.bib items
+    heading=none, % Do not include header. Gives us more control.
+    resetnumbers=true, % Start item counter from zero
+    keyword=J % Include items in ref.bib with keyword={J}
+]
+
+\pdfbookmark[2]{Peer-reviewed Conference Proceedings}{conferences}
+\subsection*{Peer-reviewed Conference Proceedings}
+\label{conferences}
+\newrefcontext[labelprefix=C]
+\printbibliography[type=inproceedings,heading=none,resetnumbers=true,keyword=C]
+
+\pdfbookmark[2]{Posters}{posters}
+\subsection*{Posters}
+\label{posters}
+\newrefcontext[labelprefix=P]        
+\printbibliography[type=misc,heading=none,resetnumbers=true,keyword=P]
+
+
+\pdfbookmark[1]{Tools \& Software}{tools}
+\section*{Tools \& Software}
+\label{tools}
+\input{tools.tex}
+
+
+% Include any additional details here
+% \vspace{-.75em}
+% \small
+% $\dagger \rightarrow$ Equal contribution
+% \normalsize
+
+
+\pdfbookmark[1]{Teaching}{teaching}
+\section*{Teaching}
+\label{teaching}
+\input{teaching.tex}
+
+
+\pdfbookmark[1]{Academic Advising}{advising}
+\section*{Academic Advising}
+\label{advising}
+\input{advising.tex}
+
+
+\pdfbookmark[1]{Academic Service}{service}
+\section*{Academic Service}
+\label{service}
+\input{service.tex}
+
+
+\pdfbookmark[1]{Other Experience}{exp_other}
+\section*{Other Experience}
+\label{exp_other}
+\input{exp_other.tex}
+
+
+% Pretty ending with the date last updated
+\centering
+\rule{0.25\linewidth}{0.4pt}\\
+\medskip
+Last updated: \today
+
+\end{document}
