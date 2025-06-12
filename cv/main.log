@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.9.23)  12 JUN 2025 19:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.9.23)  12 JUN 2025 20:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1142,6 +1142,17 @@ Overfull \hbox (17.99998pt too wide) in alignment at lines 15--20
 [] [] 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+[]|\T1/jkp/m/n/10.95 Elected rep-re-sen-ta-tive of Ph.D. stu-dents and Post-doc
+s at the CRIStAL lab-o-ra-tory
+ []
+
+
+Overfull \hbox (17.99998pt too wide) in alignment at lines 24--29
+[] [] 
+ []
+
 ) (./exp_other.tex
 Overfull \hbox (17.99998pt too wide) in alignment at lines 3--8
 [] [] 
@@ -1150,9 +1161,6 @@ Overfull \hbox (17.99998pt too wide) in alignment at lines 3--8
 ) [3] (./main.aux (./colors.aux))
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -1164,10 +1172,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21205 strings out of 478287
- 353564 string characters out of 5849289
- 1049909 words of memory out of 5000000
- 39064 multiletter control sequences out of 15000+600000
+ 21199 strings out of 478287
+ 353411 string characters out of 5849289
+ 1049606 words of memory out of 5000000
+ 39056 multiletter control sequences out of 15000+600000
  552824 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,10n,77p,737b,1275s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1184,10 +1192,10 @@ ts/type1/public/kpfonts/jkpmit8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 pfonts/jkpmnc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkp
 mne.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb
 >
-Output written on main.pdf (3 pages, 77626 bytes).
+Output written on main.pdf (3 pages, 77778 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
- 52 named destinations out of 1000 (max. 500000)
+ 177 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
+ 54 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
