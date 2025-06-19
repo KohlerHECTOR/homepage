@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.9.23)  13 JUN 2025 15:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.9.23)  19 JUN 2025 16:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1102,11 +1102,17 @@ Overfull \hbox (4.23674pt too wide) in paragraph at lines 151--151
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./tools.tex
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 
-3.
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
-)) (./teaching.tex
+)
+Overfull \hbox (15.44936pt too wide) in paragraph at lines 2--3
+\T1/jkp/m/n/10.95 In short I con-sider my-self an ex-pert in pro-to-typ-ing new
+ RL al-go-rithms with the \T1/jkptt/m/n/10.95 stable-baselines3 
+ []
+
+) (./teaching.tex
 Overfull \hbox (17.99998pt too wide) in alignment at lines 3--7
 [] [] 
  []
@@ -1121,12 +1127,12 @@ Overfull \hbox (17.99998pt too wide) in alignment at lines 20--25
 [] [] 
  []
 
-) (./advising.tex
+[2]) (./advising.tex
 Overfull \hbox (17.99998pt too wide) in alignment at lines 6--14
 [] [] 
  []
 
-[2]) (./service.tex
+) (./service.tex
 Overfull \hbox (17.99998pt too wide) in alignment at lines 5--11
 [] [] 
  []
@@ -1184,7 +1190,7 @@ ts/type1/public/kpfonts/jkpmit8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 pfonts/jkpmnc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkp
 mne.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb
 >
-Output written on main.pdf (3 pages, 77826 bytes).
+Output written on main.pdf (3 pages, 78092 bytes).
 PDF statistics:
  177 PDF objects out of 1000 (max. 8388607)
  156 compressed objects within 2 object streams
