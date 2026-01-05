@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<!--
-    Plain-Academic by Vasilios Mavroudis
-    Released under the Simplified BSD License/FreeBSD (2-clause) License.
-    https://github.com/mavroudisv/plain-academic
--->
-<style>
-  a.buttan:link, a.buttan:visited{
+<html lang="en">
+<head>
+  <title>Hector Kohler</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 3 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+
+  <style>
+    a.buttan:link, a.buttan:visited{
       color: black;
       padding: 0px 3px;
       margin: 1px 0px;
@@ -13,169 +21,165 @@
       text-decoration: none;
       display: inline-block;
       border: 1px solid black;
-      position:relative;
-  }
-  a.free:link, a.free:visited, .free {
-    background-color: #89C5EA;
-}
+      position: relative;
+    }
 
-  ul.vert {
-    border-left: 0px solid red;
-    background-color: #f1f1f1;
-    list-style-type: none;
-}
-ul.vert >li {
-    border-left: 10px solid #d1d1d1;
-    background-color: #f1f1f1;
-    list-style-type: none;
-    padding: 10px 20px;
-    margin-bottom: 10px;
-    margin-left: -45px;
-}
-a.buttan:after{
-    padding: 5px;
-    display:none;
-    position: absolute;
-    text-align: center;
-    color: #111111;
-    top:-30px;
-    right:30px;
-    width:200px;
-    background-color: #fef4c5;
-    border: 1px solid #d4b943;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    -ms-border-radius: 2px;
-    border-radius: 2px;
-	z-index: 98;
-}
-a.buttan:hover:after{
-    display: block;
-}
-</style>
-<html lang="en">
-<head>
-  <title>Hector Kohler</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+    a.free:link, a.free:visited, .free {
+      background-color: #89C5EA;
+    }
+
+    ul.vert {
+      background-color: #f1f1f1;
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    ul.vert > li {
+      border-left: 10px solid #d1d1d1;
+      padding: 10px 20px;
+      margin-bottom: 10px;
+    }
+
+    a.buttan:after{
+      padding: 5px;
+      display: none;
+      position: absolute;
+      color: #111;
+      top: -30px;
+      right: 30px;
+      width: 200px;
+      background-color: #fef4c5;
+      border: 1px solid #d4b943;
+      border-radius: 2px;
+      z-index: 98;
+    }
+
+    a.buttan:hover:after{
+      display: block;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
+
 <body>
 
-
 <!-- Navigation -->
-	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-	  <div class="container">
-		<div class="navbar-header">
-		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-		</div>
-
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		  <ul class="nav navbar-nav">
-				  <li><a href="index.html">Home</a></li>
-          <li><a href="#opensource">Open Source</a></li>
-          <li><a href="#teaching">Teaching</a></li>
-          <li><a href="#supervision">Supervisions</a></li>
-				  <li><a href="cv/main.pdf">CV</a></li>
-          <li><a href="https://sites.google.com/view/interppol-workshop/home?authuser=0">Interpretable RL workshop</a></li>
-          <!-- <li><a href="Kohler_Hector_Cristal.pdf">Cristal Elections</a></li> -->
-		  </ul>
-		</div>
-	  </div>
-	</nav>
-
-  <!-- Page Content -->
-    <div class="container">
-
-        <div class="row">
-
-            <!-- Entries Column -->
-            <div class="col-md-6" style="height: 100vh;">
-
-                <!-- Main Image -->
-                <img class="img-responsive" src="mit_pic_2.jpeg" alt=""><br>
-
-                <div style="margin-top:3%; text-align:justify;">
-					<p>I will start a postdoc at École Polytechnique in 2026. During my PhD, I studied Interpretable Reinforcement Learning. Essentially I designed algorithms and benchmarcks to make AI models verifiable, transparent, and with reproducible performances.</p>
-                </div>
-            </div>
-
-            <!-- Contact Info on the Sidebar -->
-            <div class="col-md-4">
-                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Hector Kohler</b></div><br>
-                <p><b>hector dot kohler at inria.fr</b><br>
-                <p><a href = "https://team.inria.fr/scool/">Inria Scool</a><br>
-                <a href = "https://www.cristal.univ-lille.fr/?rubrique9">Université de Lille</a><br>
-                <a href = "https://twitter.com/kohler_hector">Twitter/X</a><br>
-                <a href="https://scholar.google.com/citations?user=aSO7bZ0AAAAJ&hl=en">Scholar</a><br>
-                <a href="https://github.com/KohlerHECTOR/">Github</a></br>
-                Villeneuve d'Ascq<br>
-                France<br>
-                </p>
-            </div>
-
-
-            <!-- Teaching -->
-            <div class="col-md-8">
-      	    <!-- Old: <div class="col-md-8" style="height: 120vh;"> -->
-      		  <h2 id="teaching">Teaching Assistant</h2>
-              <ul class="vert">
-              <li>
-                <a href = "https://www.univ-lille.fr/formations/fr-00002039">Decision under Uncertainty and Reinforcement Learning (Grads, 25 hours)</a>.<br>
-                <a href = "https://debabrota-basu.github.io/course_bandit_rl.html">Sequential Decision Making (Grads, 6 hours)</a>.<br>
-                <a href = "https://paperman.name/page/enseignement/2022/AP2/">Algorithms and Programming II (Undergrads, 25 hours)</a>.<br>
-                <a href = "https://paperman.name/page/enseignement/2022/AP2/">Algorithms and Data Structures (Undergrads, 36 hours)</a>.<br>
-                Some notebook exercices about Bandits, MDPs, RL, DRL.<br>
-            		<a class="buttan free" href="https://github.com/KohlerHECTOR/teachings">Notebooks</a><br>
-		          </li>
-              </ul>
-            </div>
-            <!-- TSupervisions -->
-            <div class="col-md-8">
-      	    <!-- Old: <div class="col-md-8" style="height: 120vh;"> -->
-      		  <h2 id="supervision">Supervisions</h2>
-              <ul class="vert">
-              <li>
-                <a href = "supervisions/image_segmentation.pdf">Image Segmentation (1 month, U. Lille)</a>.<br>
-                <a href = "supervisions/entropy_rl.pdf">Entropy Regularized RL (2 months, Ecole Polytechnique)</a>.<br>
-                <a href = "supervisions/oc_atari.pdf">Playing Object Centric Atari with Deep RL (6 months, Ecole Centrale Lille)</a>.<br>
-                <a href = "supervisions/viper.pdf">Imitating Deep Reinforcement Learning Policies with Decision Trees (6 months, Ecole Centrale Lille)</a>.<br>
-		          </li>
-              </ul>
-            </div>
-            <!-- Open Source -->
-            <div class="col-md-8">
-      	    <!-- Old: <div class="col-md-8" style="height: 120vh;"> -->
-      		  <h2 id="opensource">Open Source</h2>
-              <ul class="vert">
-              <li>
-                I contribute to <strong>rlberry</strong>. It is an open source Reinforcement Learning library aimed at education and research. <strong>Rlberry</strong> main strength is its AgentManager class used to automatise statistically meaningful evaluations of RL agents.<br>
-            		<a class="buttan free" href="https://rlberry-py.github.io/rlberry/">RLberry</a>
-                <a class="buttan free" href="https://github.com/KohlerHECTOR/">Github</a>
-
-		          </li>
-              <li>
-                The API for DPDT is compatible with scikit-learn and available <a class="buttan free" href="https://github.com/KohlerHECTOR/DPDTreeEstimator">here</a>.
-                Here is an open source code for distillating neural policies in decision trees followin our EWRL17 paper: <a class="buttan free" href="https://github.com/KohlerHECTOR/interpreter-py">code</a>. 
-		          </li>
-              </ul>
-            </div>
-        </div>
+<nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
     </div>
-    <!-- /.container -->
 
-    <!-- Other people may like it too! -->
-    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#opensource">Open Source</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#supervision">Supervisions</a></li>
+        <li><a href="cv/main.pdf">CV</a></li>
+        <li><a href="https://sites.google.com/view/interppol-workshop/home">Interpretable RL workshop</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="container-fluid">
+  <div class="row">
+
+    <!-- LEFT COLUMN -->
+    <div class="col-md-4 col-sm-12">
+      <img src="mit_pic_2.jpeg" class="img-responsive" alt="Photo">
+
+      <div style="margin-top:15px; text-align:justify;">
+        <p>
+          I am a postdoc at <a href="https://www.lix.polytechnique.fr/">Laboratoire d'Informatique de l'École Polytechnique (LIX)</a> with <a href="https://johanneslutzeyer.com/">Johannes Lutzeyer</a> and <a href="https://jmread.github.io/">Jesse Read</a>.
+          We work on reinforcement learning and graphs.
+          During my PhD, I studied interpretable reinforcement learning at <a href="https://team.inria.fr/scool/">Inria Scool</a> in Lille.
+          I designed algorithms and benchmarks to make RL agents verifiable,
+          transparent, and reproducible.
+        </p>
+      </div>
+
+      <div style="font-family: 'Oswald', sans-serif; font-size: 32px;">
+        <b>Hector Kohler</b>
+      </div>
+
+      <p>
+        <b>kohler at lix dot polytechnique dot fr</b><br>
+        <a href="https://scholar.google.com/">Scholar</a><br>
+        <a href="https://github.com/KohlerHECTOR/">Github</a><br>
+        Palaiseau, France
+      </p>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="col-md-8 col-sm-12">
+
+      <!-- Teaching -->
+      <h2 id="teaching">Teaching assistant</h2>
+      <ul class="vert">
+        <li>
+          <a href="https://www.univ-lille.fr/formations/fr-00002039">
+            Decision under Uncertainty and Reinforcement Learning (Grads, 25h)
+          </a><br>
+          <a href="https://debabrota-basu.github.io/course_bandit_rl.html">
+            Sequential Decision Making (Grads, 6h)
+          </a><br>
+          <a href="https://paperman.name/page/enseignement/2022/AP2/">
+            Algorithms and Programming II (Undergrads, 25h)
+          </a><br>
+          <a href="https://paperman.name/page/enseignement/2022/AP2/">
+            Algorithms and Data Structures (Undergrads, 36h)
+          </a><br>
+          <a class="buttan free" href="https://github.com/KohlerHECTOR/teachings">
+            Notebooks
+          </a>
+        </li>
+      </ul>
+
+      <!-- Supervisions -->
+      <h2 id="supervision">Supervisions</h2>
+      <ul class="vert">
+        <li>
+          <a href="supervisions/image_segmentation.pdf">Image Segmentation (1 month)</a><br>
+          <a href="supervisions/entropy_rl.pdf">Entropy Regularized RL (2 months)</a><br>
+          <a href="supervisions/oc_atari.pdf">Object-Centric Atari RL (6 months)</a><br>
+          <a href="supervisions/viper.pdf">Policy Distillation to Trees (6 months)</a>
+        </li>
+      </ul>
+
+      <!-- Open Source -->
+      <h2 id="opensource">Open Source</h2>
+      <ul class="vert">
+        <li>
+          Contributor to <strong>rlberry</strong>.<br>
+          <a class="buttan free" href="https://rlberry-py.github.io/rlberry/">RLberry</a>
+          <a class="buttan free" href="https://github.com/KohlerHECTOR/">Github</a>
+        </li>
+        <li>
+          DPDT estimator API:
+          <a class="buttan free" href="https://github.com/KohlerHECTOR/DPDTreeEstimator">Code</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+<a style="color:#b5bec9;font-size:0.8em; float:right;"
+   href="https://github.com/mavroudisv/plain-academic">
+  Plain Academic
+</a>
 
 </body>
-
 </html>
