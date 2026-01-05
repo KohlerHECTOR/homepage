@@ -103,7 +103,7 @@
 
 \begin{document}
 \include{colors.tex} % Load custom colors from colors file
-\mytitle{Hector Kohler}{hector.kohler@inria.fr}{kohlerhector.github.io/homepage/}{\href{https://github.com/KohlerHECTOR/}{github}} % Insert your custom title
+\mytitle{Hector Kohler}{kohler@lix.polytechnique.fr}{kohlerhector.github.io/homepage/}{\href{https://github.com/KohlerHECTOR/}{github}} % Insert your custom title
 
 
 % Ensure right side margin is not surpassed by bibliography and the right margin is aligned throughout
@@ -112,14 +112,15 @@
 
 % These \pdfbookmark lines create bookmarks in the exported PDF document that display in the left pane.
 % Value in [] sets the indentation level of the bookmark
-\pdfbookmark[1]{Education}{}
-\section*{Education}
-\input{education.tex}
 
 \pdfbookmark[1]{Research Experience}{exp_research}
 \section*{Research Experience}
 \label{exp_research}
 \input{exp_research.tex}
+
+\pdfbookmark[1]{Education}{}
+\section*{Education}
+\input{education.tex}
 
 \pdfbookmark[1]{Awards \& Honors}{awards}
 \section*{Awards \& Honors}

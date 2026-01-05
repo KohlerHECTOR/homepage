@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.9.23)  17 DEC 2025 12:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.9.23)  5 JAN 2026 15:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1009,7 +1009,42 @@ LaTeX Info: Redefining \nameref on input line 104.
 )
 \openout2 = `colors.aux'.
 
- (./colors.tex) (./education.tex
+ (./colors.tex) (./exp_research.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+[]|\T1/jkp/m/n/10.95 Postdoc re-searcher on re-in-force-ment learn-ing and grap
+hs, [][]LIX[][], École Poly-tech-nique,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+[]|\T1/jkp/m/n/10.95 Ph.D. re-searcher on in-ter-pretable re-in-force-ment lear
+n-ing, [][]In-ria Scool[][], Uni-ver-sité de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+[]|\T1/jkp/m/n/10.95 Visiting re-searcher de-sign-ing new RL al-go-rithms and e
+val-u-a-tion tools, [][]RLAI Lab[][],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+[]|\T1/jkp/m/n/10.95 Research as-sis-tant work-ing on un-manned un-der-wa-ter d
+rone con-trol, [][]Lab-STICC[][],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]|\T1/jkp/m/n/10.95 Research as-sis-tant work-ing on re-in-force-ment learn-in
+g, [][]ISIR[][], Sor-bonne Uni-ver-sité,
+ []
+
+
+Overfull \hbox (17.99998pt too wide) in alignment at lines 3--12
+[] [] 
+ []
+
+) (./education.tex
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 []|\T1/jkp/b/n/10.95 Ph.D.\T1/jkp/m/n/10.95 , In-ter-pretable and Re-pro-ducibl
 e Re-in-force-ment Learn-ing (RL), Uni-ver-sité de
@@ -1054,42 +1089,18 @@ LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 2
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
-))
-(./exp_research.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-[]|\T1/jkp/m/n/10.95 Visiting Re-searcher de-sign-ing new RL al-go-rithms and e
-val-u-a-tion tools, [][]RLAI Lab[][],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-[]|\T1/jkp/m/n/10.95 Research As-sis-tant work-ing on un-manned un-der-wa-ter d
-rone con-trol, [][]Lab-STICC[][],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-[]|\T1/jkp/m/n/10.95 Research As-sis-tant work-ing on Re-in-force-ment Learn-in
-g, [][]ISIR[][], Sor-bonne Uni-ver-sité,
- []
-
-
-Overfull \hbox (17.99998pt too wide) in alignment at lines 3--10
-[] [] 
- []
-
-) (./awards.tex
+)) (./awards.tex
 Overfull \hbox (17.99998pt too wide) in alignment at lines 3--11
 [] [] 
  []
 
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomethree on i
-nput line 137.
+nput line 138.
  (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 )
-Overfull \hbox (4.23674pt too wide) in paragraph at lines 151--151
+Overfull \hbox (4.23674pt too wide) in paragraph at lines 152--152
 []\T1/jkp/b/n/10.95 Kohler, Hec-tor\T1/jkp/m/n/10.95 , Clement, B., Chaf-fre, T
 . & Le Chenadec, G. PID Tun-ing us-ing Cross-Entropy 
  []
@@ -1176,7 +1187,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  21172 strings out of 478287
  352158 string characters out of 5849289
- 1048757 words of memory out of 5000000
+ 1051757 words of memory out of 5000000
  39029 multiletter control sequences out of 15000+600000
  539453 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1191,10 +1202,10 @@ e1/public/kpfonts/jkpmn8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /kpfonts/jkpmnc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/j
 kpmne.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.p
 fb>
-Output written on main.pdf (4 pages, 78825 bytes).
+Output written on main.pdf (4 pages, 79726 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
+ 188 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
  56 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
