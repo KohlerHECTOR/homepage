@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.21)  17 MAY 2026 10:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.21)  17 MAY 2026 10:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1044,13 +1044,7 @@ rone con-trol, [][]Lab-STICC[][],
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-[]|\T1/jkp/m/n/10.95 Research as-sis-tant work-ing on re-in-force-ment learn-in
-g, [][]ISIR[][], Sor-bonne Uni-ver-sité,
- []
-
-
-Overfull \hbox (17.99998pt too wide) in alignment at lines 3--12
+Overfull \hbox (17.99998pt too wide) in alignment at lines 3--9
 [] [] 
  []
 
@@ -1195,12 +1189,12 @@ Overfull \hbox (17.99998pt too wide) in alignment at lines 35--41
 [] [] 
  []
 
-) (./exp_other.tex
+[3]) (./exp_other.tex
 Overfull \hbox (17.99998pt too wide) in alignment at lines 3--8
 [] [] 
  []
 
-[3]) [4] (./main.aux (./colors.aux))
+) [4] (./main.aux (./colors.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1212,7 +1206,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  21214 strings out of 474222
  352751 string characters out of 5748733
- 1942975 words of memory out of 5000000
+ 1941975 words of memory out of 5000000
  43128 multiletter control sequences out of 15000+600000
  640526 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1224,10 +1218,10 @@ ive/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/kpfonts/jkpmnc.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/kpfonts/jkpmne.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/kpfonts/jkpttmn8a.pfb>
-Output written on main.pdf (4 pages, 81198 bytes).
+Output written on main.pdf (4 pages, 81232 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 169 compressed objects within 2 object streams
+ 190 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
  57 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
