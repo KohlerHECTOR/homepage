@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.21)  17 MAY 2026 10:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.21)  17 MAY 2026 11:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1027,73 +1027,33 @@ hs, [][]LIX[][], École Poly-tech-nique,
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
-[]|\T1/jkp/m/n/10.95 Ph.D. re-searcher on in-ter-pretable re-in-force-ment lear
-n-ing, [][]In-ria Scool[][], Uni-ver-sité de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
 []|\T1/jkp/m/n/10.95 Visiting re-searcher de-sign-ing new RL al-go-rithms and e
 val-u-a-tion tools, [][]RLAI Lab[][],
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+[]|\T1/jkp/m/n/10.95 Ph.D. re-searcher on in-ter-pretable re-in-force-ment lear
+n-ing, [][]In-ria Scool[][], Uni-ver-sité de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 []|\T1/jkp/m/n/10.95 Research as-sis-tant work-ing on un-manned un-der-wa-ter d
 rone con-trol, [][]Lab-STICC[][],
  []
 
 
-Overfull \hbox (17.99998pt too wide) in alignment at lines 3--9
+Overfull \hbox (17.99998pt too wide) in alignment at lines 3--8
 [] [] 
  []
 
 ) (./education.tex
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-[]|\T1/jkp/b/n/10.95 Ph.D.\T1/jkp/m/n/10.95 , In-ter-pretable and Re-pro-ducibl
-e Re-in-force-ment Learn-ing (RL), Uni-ver-sité de
- []
-
-
 Overfull \hbox (17.99998pt too wide) in alignment at lines 12--20
 [] [] 
  []
 
-LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 2
-4.
-(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
-File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
-)
-LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 
-24.
-
-(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
-File: ujkpmia.fd 2006/08/15 v1.0
-)
-LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 
-24.
-
-(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
-File: ujkpsya.fd 2006/08/15 v1.0
-)
-LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 
-24.
-
-(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
-File: ujkpsyb.fd 2006/08/15 v1.0
-)
-LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 
-24.
-
-(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
-File: ujkpsyc.fd 2006/08/15 v1.0
-)
-LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 2
-4.
-
-(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
-File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
-)) (./awards.tex
+) (./awards.tex
 LaTeX Font Info:    Faking \texteuro for font family jkp
 (Font)              in TS1 encoding on input line 5.
 
@@ -1117,6 +1077,36 @@ LaTeX Font Info:    Trying to load font information for T1+jkptt on input line
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 )
+LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 1
+58.
+
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
+File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
+)
+LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 
+158.
+
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
+File: ujkpmia.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 
+158.
+
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
+File: ujkpsya.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 
+158.
+
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
+File: ujkpsyb.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 
+158.
+
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
+File: ujkpsyc.fd 2006/08/15 v1.0
+)
 Overfull \hbox (4.8935pt too wide) in paragraph at lines 158--158
 \T1/jkp/m/it/10.95 Markov de-ci-sion pro-cesses \T1/jkp/m/n/10.95 in \T1/jkp/m/
 it/10.95 Re-in-force-ment Learn-ing Con-fer-ence \T1/jkp/m/n/10.95 (2026). [][]
@@ -1131,13 +1121,7 @@ $\T1/jkptt/m/n/10.95 https : / / openreview .
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/f
 ontawesome/fontawesomethree.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/
-kpfonts/kpfonts-expert.enc}] (./tools.tex
-Overfull \hbox (15.44936pt too wide) in paragraph at lines 2--3
-\T1/jkp/m/n/10.95 In short I con-sider my-self an ex-pert in pro-to-typ-ing new
- RL al-go-rithms with the \T1/jkptt/m/n/10.95 stable-baselines3 
- []
-
-) (./teaching.tex
+kpfonts/kpfonts-expert.enc}] (./tools.tex) (./teaching.tex
 Overfull \hbox (17.99998pt too wide) in alignment at lines 3--7
 [] [] 
  []
@@ -1152,76 +1136,74 @@ Overfull \hbox (17.99998pt too wide) in alignment at lines 20--25
 [] [] 
  []
 
-[2]) (./advising.tex
+) (./advising.tex
 Overfull \hbox (17.99998pt too wide) in alignment at lines 6--14
 [] [] 
  []
 
-) (./service.tex
+[2]) (./service.tex
 Overfull \hbox (17.99998pt too wide) in alignment at lines 5--11
 [] [] 
  []
 
 
-Overfull \hbox (17.99998pt too wide) in alignment at lines 13--22
+Overfull \hbox (17.99998pt too wide) in alignment at lines 13--20
 [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 []|\T1/jkp/m/n/10.95 Organized the [][]In-terp-Pol[][] work-shop at the first R
 e-in-force-ment Learn-ing Con-fer-ence
  []
 
 
-Overfull \hbox (17.99998pt too wide) in alignment at lines 26--31
+Overfull \hbox (17.99998pt too wide) in alignment at lines 24--29
 [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 []|\T1/jkp/m/n/10.95 Elected rep-re-sen-ta-tive of Ph.D. stu-dents and Post-doc
 s at the CRIStAL lab-o-ra-tory
  []
 
 
-Overfull \hbox (17.99998pt too wide) in alignment at lines 35--41
+Overfull \hbox (17.99998pt too wide) in alignment at lines 33--39
 [] [] 
  []
 
-[3]) (./exp_other.tex
-Overfull \hbox (17.99998pt too wide) in alignment at lines 3--8
-[] [] 
- []
-
-) [4] (./main.aux (./colors.aux))
+) [3] (./main.aux (./colors.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21214 strings out of 474222
- 352751 string characters out of 5748733
- 1941975 words of memory out of 5000000
- 43128 multiletter control sequences out of 15000+600000
- 640526 words of font info for 117 fonts, out of 8000000 for 9000
+ 21134 strings out of 474222
+ 351653 string characters out of 5748733
+ 1943975 words of memory out of 5000000
+ 43065 multiletter control sequences out of 15000+600000
+ 621330 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,10n,81p,677b,1461s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 77i,10n,81p,677b,1386s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/kpfonts/jkpmnc.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/kpfonts/jkpmne.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/kpfonts/jkpttmn8a.pfb>
-Output written on main.pdf (4 pages, 81232 bytes).
+-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on main.pdf (3 pages, 72380 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 168 compressed objects within 2 object streams
- 57 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 172 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
