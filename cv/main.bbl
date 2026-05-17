@@ -19,6 +19,46 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global/FF44570ACA8241914870AFBC310CDB85/global/global}
+    \entry{kohler2026limits}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=0b5c855790404ce26aa2e4002a800e2d}{%
+           family={\textbf{Kohler,\bibnamedelimb Hector}},
+           familyi={K\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=426c39466b29a3f5a6210eecfdc7cf72}{%
+           family={Akrour},
+           familyi={A\bibinitperiod},
+           given={Riad},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2abefc415f2026af7741d49d13f0762e}{%
+           family={Preux},
+           familyi={P\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \strng{fullhash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \strng{bibnamehash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \strng{authorbibnamehash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \strng{authornamehash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \strng{authorfullhash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelprefix}{J}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Reinforcement Learning Conference}
+      \field{title}{Limits of reinforcement learning for decision trees in Markov decision processes}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://openreview.net/forum?id=BBeszTCQhT
+      \endverb
+      \verb{url}
+      \verb https://openreview.net/forum?id=BBeszTCQhT
+      \endverb
+      \keyw{C}
+    \endentry
     \entry{dpdt}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=0b5c855790404ce26aa2e4002a800e2d}{%
@@ -41,6 +81,7 @@
       \strng{authorbibnamehash}{b11a5ccd7e7c6fce6939ed6530821992}
       \strng{authornamehash}{b11a5ccd7e7c6fce6939ed6530821992}
       \strng{authorfullhash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelprefix}{J}
@@ -233,6 +274,46 @@
     \endentry
   \enddatalist
   \datalist[entry]{ydnt/global/0D61F8370CAD1D412F80B84D143E1257/global/global}
+    \entry{kohler2026limits}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=0b5c855790404ce26aa2e4002a800e2d}{%
+           family={\textbf{Kohler,\bibnamedelimb Hector}},
+           familyi={K\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=426c39466b29a3f5a6210eecfdc7cf72}{%
+           family={Akrour},
+           familyi={A\bibinitperiod},
+           given={Riad},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2abefc415f2026af7741d49d13f0762e}{%
+           family={Preux},
+           familyi={P\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \strng{fullhash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \strng{bibnamehash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \strng{authorbibnamehash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \strng{authornamehash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \strng{authorfullhash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelprefix}{C}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Reinforcement Learning Conference}
+      \field{title}{Limits of reinforcement learning for decision trees in Markov decision processes}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://openreview.net/forum?id=BBeszTCQhT
+      \endverb
+      \verb{url}
+      \verb https://openreview.net/forum?id=BBeszTCQhT
+      \endverb
+      \keyw{C}
+    \endentry
     \entry{dpdt}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=0b5c855790404ce26aa2e4002a800e2d}{%
@@ -255,6 +336,7 @@
       \strng{authorbibnamehash}{b11a5ccd7e7c6fce6939ed6530821992}
       \strng{authornamehash}{b11a5ccd7e7c6fce6939ed6530821992}
       \strng{authorfullhash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelprefix}{C}
@@ -447,6 +529,46 @@
     \endentry
   \enddatalist
   \datalist[entry]{ydnt/global/44C29EDB103A2872F519AD0C9A0FDAAA/global/global}
+    \entry{kohler2026limits}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=0b5c855790404ce26aa2e4002a800e2d}{%
+           family={\textbf{Kohler,\bibnamedelimb Hector}},
+           familyi={K\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=426c39466b29a3f5a6210eecfdc7cf72}{%
+           family={Akrour},
+           familyi={A\bibinitperiod},
+           given={Riad},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2abefc415f2026af7741d49d13f0762e}{%
+           family={Preux},
+           familyi={P\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \strng{fullhash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \strng{bibnamehash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \strng{authorbibnamehash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \strng{authornamehash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \strng{authorfullhash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelprefix}{P}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Reinforcement Learning Conference}
+      \field{title}{Limits of reinforcement learning for decision trees in Markov decision processes}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://openreview.net/forum?id=BBeszTCQhT
+      \endverb
+      \verb{url}
+      \verb https://openreview.net/forum?id=BBeszTCQhT
+      \endverb
+      \keyw{C}
+    \endentry
     \entry{dpdt}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=0b5c855790404ce26aa2e4002a800e2d}{%
@@ -469,6 +591,7 @@
       \strng{authorbibnamehash}{b11a5ccd7e7c6fce6939ed6530821992}
       \strng{authornamehash}{b11a5ccd7e7c6fce6939ed6530821992}
       \strng{authorfullhash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelprefix}{P}
@@ -661,6 +784,45 @@
     \endentry
   \enddatalist
   \datalist[entry]{ydnt/global//global/global}
+    \entry{kohler2026limits}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=0b5c855790404ce26aa2e4002a800e2d}{%
+           family={\textbf{Kohler,\bibnamedelimb Hector}},
+           familyi={K\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=426c39466b29a3f5a6210eecfdc7cf72}{%
+           family={Akrour},
+           familyi={A\bibinitperiod},
+           given={Riad},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2abefc415f2026af7741d49d13f0762e}{%
+           family={Preux},
+           familyi={P\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \strng{fullhash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \strng{bibnamehash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \strng{authorbibnamehash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \strng{authornamehash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \strng{authorfullhash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Reinforcement Learning Conference}
+      \field{title}{Limits of reinforcement learning for decision trees in Markov decision processes}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://openreview.net/forum?id=BBeszTCQhT
+      \endverb
+      \verb{url}
+      \verb https://openreview.net/forum?id=BBeszTCQhT
+      \endverb
+      \keyw{C}
+    \endentry
     \entry{dpdt}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=0b5c855790404ce26aa2e4002a800e2d}{%
@@ -683,6 +845,7 @@
       \strng{authorbibnamehash}{b11a5ccd7e7c6fce6939ed6530821992}
       \strng{authornamehash}{b11a5ccd7e7c6fce6939ed6530821992}
       \strng{authorfullhash}{b11a5ccd7e7c6fce6939ed6530821992}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
