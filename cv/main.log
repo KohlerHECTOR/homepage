@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.21)  17 MAY 2026 11:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.21)  18 MAY 2026 09:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
+**main
 (./main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1178,10 +1178,6 @@ Overfull \hbox (17.99998pt too wide) in alignment at lines 33--39
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -1193,14 +1189,14 @@ Here is how much of TeX's memory you used:
  43065 multiletter control sequences out of 15000+600000
  621330 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,10n,81p,677b,1386s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 77i,10n,81p,673b,1386s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on main.pdf (3 pages, 72380 bytes).
+Output written on main.pdf (3 pages, 72548 bytes).
 PDF statistics:
  172 PDF objects out of 1000 (max. 8388607)
  153 compressed objects within 2 object streams
